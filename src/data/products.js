@@ -8,7 +8,7 @@ export const products = [
   {
     id: 'melissa',
     name: 'Melissa',
-    description: 'A synthesizer preset management tool.',
+    description: 'A music player for musical instrument practice, for macOS and Windows',
     github: 'https://github.com/mosynthkey/Melissa',
     screenshot: melissaScreenshot
   },
