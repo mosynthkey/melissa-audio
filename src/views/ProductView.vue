@@ -20,6 +20,9 @@
         <v-btn v-if="product.github" :href="product.github" target="_blank" prepend-icon="mdi-github">
           GitHub
         </v-btn>
+        <v-btn v-if="product.appStore" :href="product.appStore" target="_blank" prepend-icon="mdi-apple">
+          App Store
+        </v-btn>
         <v-btn to="/">Back to Home</v-btn>
       </v-card-actions>
     </v-card>

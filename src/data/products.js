@@ -6,18 +6,18 @@ import wavyScreenshot from '@/assets/images/wavy.png';
 
 export const products = [
   {
+    id: 'wavy',
+    name: 'Wavy',
+    description: 'An iOS app to create cool videos from album art and music.',
+    appStore: 'https://apps.apple.com/jp/app/wavy-music-video-studio/id6753092962',
+    screenshot: wavyScreenshot
+  },
+  {
     id: 'melissa',
     name: 'Melissa',
     description: 'A music player for musical instrument practice, for macOS and Windows',
     github: 'https://github.com/mosynthkey/Melissa',
     screenshot: melissaScreenshot
-  },
-  {
-    id: 'fa-studioset-editor',
-    name: 'Roland FA Studio Set Editor',
-    description: 'An editor for Roland FA series keyboards.',
-    github: 'https://github.com/mosynthkey/FA-StudioSetEditor',
-    screenshot: faStudioSetEditorScreenshot
   },
   {
     id: 'volcafm2-utility',
@@ -34,10 +34,10 @@ export const products = [
     screenshot: modxLivesetUtilityScreenshot
   },
   {
-    id: 'wavy',
-    name: 'Wavy',
-    description: 'An iOS app to create cool videos from album art and music.',
-    github: null, // No GitHub page
-    screenshot: wavyScreenshot
+    id: 'fa-studioset-editor',
+    name: 'Roland FA Studio Set Editor',
+    description: 'An editor for Roland FA series keyboards.',
+    github: 'https://github.com/mosynthkey/FA-StudioSetEditor',
+    screenshot: faStudioSetEditorScreenshot
   }
 ];

@@ -10,9 +10,6 @@
 
     <v-footer app class="d-flex flex-column">
       <div class="text-center w-100">
-        <a href="/privacy_policy.html" target="_blank" class="text-decoration-none text-grey-darken-1">Privacy Policy</a>
-      </div>
-      <div class="text-center w-100 mt-2">
         &copy; {{ new Date().getFullYear() }} Melissa Audio
       </div>
     </v-footer>

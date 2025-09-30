@@ -33,6 +33,15 @@
             >
               View on GitHub
             </v-btn>
+            <v-btn
+              v-if="product.appStore"
+              :href="product.appStore"
+              target="_blank"
+              @click.stop
+              prepend-icon="mdi-apple"
+            >
+              App Store
+            </v-btn>
              <v-spacer></v-spacer>
             <v-btn append-icon="mdi-arrow-right">Details</v-btn>
           </v-card-actions>
