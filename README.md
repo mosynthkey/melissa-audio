@@ -1,14 +1,13 @@
-# melissa-audio-app
+# Melissa Audio
 
-This template should help get you started developing with Vue 3 in Vite.
+A portfolio website showcasing music software and tools, including Melissa music player, synthesizer editors, and utilities for various hardware instruments.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Vue 3
+- Vuetify 3
+- Vite
+- Vue Router
 
 ## Project Setup
 
